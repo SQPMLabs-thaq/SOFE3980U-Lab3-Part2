@@ -24,6 +24,7 @@ import static org.hamcrest.Matchers.containsString;
 import static org.assertj.core.api.Assertions.*;
 import static org.mockito.BDDMockito.*;
 
+@SpringBootTest
 @RunWith(SpringRunner.class)
 @WebMvcTest(HelloAPIController.class)
 public class HelloAPIControllerTest {
